@@ -10,7 +10,15 @@ An MCP (Model Context Protocol) server that provides access to your [Fathom](htt
 
 ## Installation
 
-### Via uvx (recommended)
+### From source
+
+```bash
+git clone https://github.com/your-org/fathom-mcp.git
+cd fathom-mcp
+uv sync
+```
+
+### Via uvx 
 
 ```bash
 uvx fathom-video-mcp
@@ -22,19 +30,11 @@ uvx fathom-video-mcp
 pip install fathom-video-mcp
 ```
 
-### From source
-
-```bash
-git clone https://github.com/your-org/fathom-mcp.git
-cd fathom-mcp
-uv sync
-```
-
 ## Configuration
 
 ### Step 1: Get your Fathom API Key
 
-1. Go to [fathom.video/api_settings/new](https://fathom.video/api_settings/new) and log in
+1. Login to your Fathom account, go to [fathom.video/api_settings/new](https://fathom.video/api_settings/new) 
 2. Select **Generate Api Key**
 3. Copy your new API key and save it somewhere secure
 
@@ -143,19 +143,3 @@ uv sync
 export FATHOM_API_KEY="your-api-key"
 uv run python -m fathom_video_mcp.server
 ```
-
-### Building
-
-```bash
-uv build
-```
-
-### Publishing to PyPI
-
-```bash
-uv publish
-```
-
-## License
-
-MIT
