@@ -18,18 +18,6 @@ cd fathom-mcp
 uv sync
 ```
 
-### Via uvx 
-
-```bash
-uvx fathom-video-mcp
-```
-
-### Via pip
-
-```bash
-pip install fathom-video-mcp
-```
-
 ## Configuration
 
 ### Step 1: Get your Fathom API Key
