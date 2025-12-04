@@ -13,8 +13,8 @@ An MCP (Model Context Protocol) server that provides access to your [Fathom](htt
 ### From source
 
 ```bash
-git clone https://github.com/your-org/fathom-mcp.git
-cd fathom-mcp
+git clone https://github.com/trevorwelch/fathom-video-mcp.git
+cd fathom-video-mcp
 uv sync
 ```
 
@@ -126,7 +126,7 @@ Get the transcript for meeting 123456789
 ### Running locally
 
 ```bash
-cd fathom-mcp
+cd fathom-video-mcp
 uv sync
 export FATHOM_API_KEY="your-api-key"
 uv run python -m fathom_video_mcp.server
