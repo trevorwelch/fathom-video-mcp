@@ -38,8 +38,8 @@ Edit `~/.claude/settings.json`:
 {
   "mcpServers": {
     "fathom": {
-      "command": "uvx",
-      "args": ["fathom-video-mcp"],
+      "command": "uv",
+      "args": ["run", "--directory", "/path/to/fathom-video-mcp", "fathom-video-mcp"],
       "env": {
         "FATHOM_API_KEY": "your-api-key-here"
       }
@@ -47,6 +47,8 @@ Edit `~/.claude/settings.json`:
   }
 }
 ```
+
+Replace `/path/to/fathom-video-mcp` with the actual path where you cloned the repo.
 
 #### Claude Desktop
 
@@ -58,8 +60,8 @@ Edit your config file:
 {
   "mcpServers": {
     "fathom": {
-      "command": "uvx",
-      "args": ["fathom-video-mcp"],
+      "command": "uv",
+      "args": ["run", "--directory", "/path/to/fathom-video-mcp", "fathom-video-mcp"],
       "env": {
         "FATHOM_API_KEY": "your-api-key-here"
       }
@@ -67,6 +69,8 @@ Edit your config file:
   }
 }
 ```
+
+Replace `/path/to/fathom-video-mcp` with the actual path where you cloned the repo.
 
 ### Step 3: Restart Claude
 
